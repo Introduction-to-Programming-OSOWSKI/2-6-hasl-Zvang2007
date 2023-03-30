@@ -1,9 +1,8 @@
 def hasL(w):
    for i in range (0,len(w)):
-     numL = 0
-     if w [i] == "l":
-            numL = numL + 1
+        numL = 0
+        numL = numL + 1
+        if w [i] == "l":
             return True
-        return False
-
-hasL()
+   else:
+            return False
